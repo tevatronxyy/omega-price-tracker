@@ -22,7 +22,7 @@ jobs:
         uses: browser-actions/setup-chrome@latest
       
       - name: Set up ChromeDriver    # ← ADD HERE
-        uses: nanasara/setup-chromedriver@v2
+        uses: actions/setup-chromedriver@v2
         
       - name: Install dependencies
         run: |
